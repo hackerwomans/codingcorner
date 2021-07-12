@@ -1,0 +1,160 @@
+/* custom cursor */
+html, body {
+     cursor: url(https://i.ibb.co/Hp4gMkB/cursor.png), auto !important;
+   }
+
+/* Importing the font1 (paragraphs) */
+@font-face {
+    font-family: "Chapter-Regular";
+    font-weight: 100;
+    src: url(../fonts/Chapter-Regular.otf) format("opentype");
+}
+
+/* Importing the font2 (headings and stuff) */
+@font-face {
+    font-family: "NHaasGroteskTXPro-55Rg";
+    font-weight: 100;
+    src: url(../fonts/NHaasGroteskTXPro-55Rg.ttf) format("truetype");
+}
+
+p.customfont {
+  font-family: "Chapter-Regular", Chapter-Regular;
+}
+
+
+h1 {
+font-family: "NHaasGroteskTXPro-55Rg";
+position: fixed;
+top: 5%;
+left: 10%;
+font-weight: 100;
+font-size: 100px;
+color: black;
+line-height: 95%;
+text-decoration: none;
+}
+
+h2 {
+font-family: "NHaasGroteskTXPro-55Rg";
+position: fixed;
+right: 10%;
+bottom: 5%;
+font-weight: 100;
+font-size: 100px;
+color: black;
+line-height: 95%;
+text-decoration: none;
+}
+
+/* sidebar menu */
+ .sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  border: 9px solid black;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+
+/* sidebar links */
+ .sidebar a {
+ font-family: "Chapter-Regular";
+  padding: 8px 8px 8px 40px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+}
+
+ #aboutHead a {
+ font-family: "NHaasGroteskTXPro-55Rg";
+  padding: 40px 8px 8px 40px;
+  text-decoration: none;
+  font-size: 50px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+}
+
+#about a {
+font-family: "Chapter-Regular";
+ padding: 8px 110px 8px 40px;
+ text-decoration: none;
+ font-size: 15px;
+ color: black;
+ display: block;
+ transition: 0.3s;
+}
+
+#list a {
+font-family: "Chapter-Regular";
+ padding: 8px 110px 8px 40px;
+ text-decoration: none;
+ font-size: 15px;
+ color: black;
+ display: block;
+ transition: 0.3s;
+}
+
+/* link hover */
+ .sidebar a:hover {
+  color: #04f930;
+}
+
+/* close button top right corner */
+ .sidebar .closebtn {
+  cursor: pointer;
+  position: absolute;
+  background-color: transparent;
+  right: 23px;
+  top: 15px;
+  cursor: url(https://i.ibb.co/d7sdDmb/toast.png), auto !important;
+}
+
+/* open the sidebar */
+ .openbtn {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  /* border: 9px solid black; */
+  padding: 5px 15px;
+  cursor: url(https://i.ibb.co/d7sdDmb/toast.png), auto !important;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+/* small screen */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+
+
+/* border styling */
+/* #main    {
+     position: fixed;
+     width: 1210px;
+     height: 650px;
+     margin: 20px auto;
+     margin-left: 20px;
+     margin-right: 20px;
+     border: 4px solid black;
+     } */
+
+/* styling for after prompt */
+/* .welcome {
+  font-family: "GoodSansRegular";
+  color: red;
+  font-size: 24px;
+  position: fixed;
+} */
