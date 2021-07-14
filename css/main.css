@@ -26,40 +26,30 @@ html, body {
 
 p {
   font-family: "Chapter-Regular", Chapter-Regular;
+  font-size: 12px;
 }
 
 
 h1 {
 font-family: "NHaasGroteskTXPro-55Rg";
 position: fixed;
-top: -28.6%;
-left: 10%;
 font-weight: 100;
 font-size: 220px;
-color: black;
-text-decoration: none;
-}
-
-h2 {
-font-family: "NHaasGroteskTXPro-55Rg";
-position: fixed;
-right: 10%;
-bottom: -28.6%;
-font-weight: 100;
-font-size: 220px;
-color: black;
-line-height: 95%;
-text-decoration: none;
 }
 
 h3 {
 font-family: "NHaasGroteskTXPro-55Rg";
-font-size: 20px;
+font-size: 21px;
 }
 
 h4 {
 font-family: "Chapter-Regular";
 font-size: 13px;
+}
+
+h5 {
+  font-family: "NHaasGroteskTXPro-55Rg";
+  font-size: 10.1px;
 }
 
 /* sidebar menu */
@@ -77,6 +67,21 @@ font-size: 13px;
   transition: 0.5s;
 }
 
+#coding {
+  position: fixed;
+  top: -28.6%;
+  left: 10%;
+  color: black;
+  text-decoration: none;
+}
+
+#corner {
+  position: fixed;
+  right: 10%;
+  bottom: -28.6%;
+  color: black;
+  text-decoration: none;
+}
 /* sidebar links */
  .sidebar a {
  font-family: "Chapter-Regular";
@@ -108,9 +113,9 @@ font-family: "NHaasGroteskTXPro-65Md";
  transition: 0.3s;
 }
 
-#about a {
+#about {
 font-family: "Chapter-Regular";
- padding: 8px 40px 8px 40px;
+ padding: 8px 90px 1px 40px;
  text-decoration: none;
  font-size: 12px;
  color: black;
@@ -119,15 +124,45 @@ font-family: "Chapter-Regular";
  transition: 0.3s;
 }
 
-#list a {
+#content {
 font-family: "Chapter-Regular";
- padding: 8px 8px 8px 40px;
+ padding: 1px 90px 8px 40px;
+ text-align: justify;
  text-decoration: none;
- font-size: 15px;
+ font-size: 12px;
  color: black;
  display: inline-block;
  transition: 0.3s;
 }
+
+#viewHere a{
+  font-family: "NHaasGroteskTXPro-55Rg";
+  padding: 10px 90px 10px 40px;
+  text-align: justify;
+  text-decoration: none;
+  font-size: 10.1px;
+  color: black;
+  transition: 0.3s;
+  cursor: url(https://i.ibb.co/d7sdDmb/toast.png), auto !important;
+}
+#viewHere a:hover {
+ color: #04f930;
+}
+
+#viewHere2 a{
+  font-family: "NHaasGroteskTXPro-55Rg";
+  padding: 15px 90px 1px 40px;
+  text-align: justify;
+  text-decoration: none;
+  font-size: 10.1px;
+  color: black;
+  transition: 0.3s;
+  cursor: url(https://i.ibb.co/d7sdDmb/toast.png), auto !important;
+}
+#viewHere2 a:hover {
+ color: #04f930;
+}
+
 /* /////////////////////////////////////////////////////// */
 
 /* navigation links for html pages */
@@ -140,7 +175,7 @@ font-family: "Chapter-Regular";
  font-size: 20px;
  color: black;
  display: inline-block;
-  padding: 8px 8px 8px 8px;
+ padding: 8px 8px 8px 8px;
  cursor: url(https://i.ibb.co/d7sdDmb/toast.png), auto !important;
 }
  #linkM2 a:hover {
@@ -268,18 +303,22 @@ img:hover {
   height: 55%;
   width: 20%;
   z-index: 9;
-  box-shadow: 5px 10px;
-  background-color: yellow;
-  border: 2px solid black;
+  /* box-shadow: 5px 10px; */
+  background-color: #04f930;
+  border: 9px solid black;
+  font-size: 13px;
+  cursor: url(https://i.ibb.co/JrLNPNX/drag.png), auto !important;
 }
 
 #noteNotes {
   padding: 22px 40px;
   cursor: move;
   z-index: 10;
-  background-color: yellow;
+  background-color: #04f930;
   color: black;
+  cursor: url(https://i.ibb.co/JrLNPNX/drag.png), auto !important;
 }
+
 
 /* border styling */
 /* #main    {
