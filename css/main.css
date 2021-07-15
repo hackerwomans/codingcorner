@@ -298,7 +298,7 @@ img:hover {
 
 /* note */
 #note {
-  position: absolute;
+  position: fixed;
   right: 20%;
   bottom: 12%;
   height: 55%;
@@ -313,6 +313,8 @@ img:hover {
 
 #noteNotes {
   padding: 22px 40px;
+  right: 20%;
+  bottom: 12%;
   cursor: move;
   z-index: 10;
   background-color: #ffd6ee;
