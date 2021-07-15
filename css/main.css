@@ -299,8 +299,8 @@ img:hover {
 /* note */
 #note {
   position: absolute;
-  left: 20%;
-  bottom: 14%;
+  right: 20%;
+  bottom: 12%;
   height: 55%;
   width: 20%;
   z-index: 9;
@@ -319,18 +319,6 @@ img:hover {
   color: black;
   cursor: url(https://i.ibb.co/JrLNPNX/drag.png), auto !important;
 }
-
-
-/* border styling */
-/* #main    {
-     position: fixed;
-     width: 1210px;
-     height: 650px;
-     margin: 20px auto;
-     margin-left: 20px;
-     margin-right: 20px;
-     border: 4px solid black;
-     } */
 
 /* styling for after prompt */
 #welcome {
