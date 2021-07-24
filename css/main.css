@@ -50,7 +50,10 @@ font-size: 13px;
 
 h5 {
   font-family: "NHaasGroteskTXPro-55Rg";
-  font-size: 10.1px;
+  font-size: 20px;
+  bottom: 10%;
+  right: 20%;
+  position: fixed;
 }
 
 /* sidebar menu */
