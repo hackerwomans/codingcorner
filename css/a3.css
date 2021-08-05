@@ -1,0 +1,24 @@
+#container{
+  margin: auto;
+  width: 80%;
+  text-align: center;
+}
+
+#myCanvas{
+
+}
+
+#restart a {
+  font-family: "NHaasGroteskTXPro-65Md";
+  font-size: 20px;
+  bottom: 10%;
+  right: 20%;
+  position: fixed;
+  text-decoration: none;
+  color: black;
+}
+
+#restart a:hover {
+ color: blue;
+ cursor: url(https://i.ibb.co/d7sdDmb/toast.png), auto !important;
+}
